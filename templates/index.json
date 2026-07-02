@@ -15,7 +15,7 @@
         "title_TMz6L9": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h4"
           }
         },
         "price_BAy7yW": {
@@ -93,7 +93,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "raquette-moustique-electrique",
         "desktop_media_width": 45,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",

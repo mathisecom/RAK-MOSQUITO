@@ -9,7 +9,9 @@
  */
 {
   "current": {
-    "section_vertical_spacing": "medium",
+    "page_width": 1540,
+    "section_vertical_spacing": "small",
+    "section_boxed_horizontal_spacing": "small",
     "button_border_radius": 60,
     "input_border_radius": 8,
     "block_border_radius": 24,

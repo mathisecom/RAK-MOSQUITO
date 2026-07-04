@@ -9,6 +9,61 @@
  */
 {
   "sections": {
+    "annoucement_gYLwWh": {
+      "type": "annoucement",
+      "blocks": {
+        "text_LHaz9y": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison Offerte en France",
+            "icon": ""
+          }
+        },
+        "text_YHGjnd": {
+          "type": "text",
+          "settings": {
+            "text": "Paiement Sécurisé",
+            "icon": ""
+          }
+        },
+        "text_GWq7jG": {
+          "type": "text",
+          "settings": {
+            "text": "Service client 7j/7",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_LHaz9y",
+        "text_YHGjnd",
+        "text_GWq7jG"
+      ],
+      "disabled": true,
+      "name": "Marquee défilant",
+      "settings": {
+        "bg_color": "#262756",
+        "text_color": "#ffffff",
+        "separator_color": "#ffffff",
+        "font_family": "inherit",
+        "font_size": 18,
+        "font_size_mobile": 10,
+        "font_weight": "600",
+        "text_transform": "uppercase",
+        "letter_spacing": 0.5,
+        "speed": 30,
+        "direction": "left",
+        "pause_on_hover": true,
+        "item_spacing": 60,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "separator": "★",
+        "border_top": false,
+        "border_bottom": false,
+        "border_color": "#ffffff",
+        "border_width": 1
+      }
+    },
     "featured_product_JfftBn": {
       "type": "featured-product",
       "blocks": {
@@ -367,6 +422,7 @@
     }
   },
   "order": [
+    "annoucement_gYLwWh",
     "featured_product_JfftBn",
     "avisclientstrust_yVzrhm",
     "text_with_icons_JKUpiT",

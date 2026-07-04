@@ -52,6 +52,7 @@
         },
         "quantity_selector_w4c8FC": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "liquid_PTKwEH": {

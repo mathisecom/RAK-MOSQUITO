@@ -135,12 +135,11 @@
         },
         "collapsible_text_Bn8kAk": {
           "type": "collapsible_text",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Intérieur & Extérieur",
+            "content": "<p>Chambre, salon, terrasse, jardin. Design premium qui s'intègre partout. Résistant à l'humidité pour usage extérieur.</p>",
             "page": ""
           }
         },

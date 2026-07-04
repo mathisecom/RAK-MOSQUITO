@@ -80,6 +80,7 @@
         },
         "collapsible_text_Bn8kAk": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,

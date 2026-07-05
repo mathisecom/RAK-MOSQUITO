@@ -79,7 +79,7 @@
         "image_ratio_mobile": 155,
         "image_position_desktop": "left",
         "image_position_mobile": "top",
-        "show_badge": true,
+        "show_badge": false,
         "badge_text_main": "32+",
         "badge_text_sub": "superaliments",
         "badge_position": "top-right",

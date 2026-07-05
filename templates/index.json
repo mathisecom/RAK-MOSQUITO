@@ -44,21 +44,21 @@
           "type": "benefit",
           "settings": {
             "benefit_icon": "✹",
-            "benefit_text": "100% Naturel"
+            "benefit_text": "Élimine Rapidement"
           }
         },
         "benefit_ChzQWJ": {
           "type": "benefit",
           "settings": {
             "benefit_icon": "✹",
-            "benefit_text": "Élimine le duvet"
+            "benefit_text": "Rechargeable"
           }
         },
         "benefit_QhTQTK": {
           "type": "benefit",
           "settings": {
             "benefit_icon": "✹",
-            "benefit_text": "Peau plus lisse"
+            "benefit_text": "Pratique Partout"
           }
         }
       },

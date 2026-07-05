@@ -524,6 +524,7 @@
         "image_AyKWRp": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_5_juil._2026_22_29_25.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -682,6 +683,7 @@
         "image_eU4PFn": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/87dcef20a8197c58da43acce54157e20.gif",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",

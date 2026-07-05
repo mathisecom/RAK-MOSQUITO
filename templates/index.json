@@ -151,7 +151,7 @@
         "benefits_full_mobile": true,
         "benefits_stack_mobile": false,
         "button_text": "OBTENIR MAINTENANT",
-        "button_link": "#shopify-section-template--26647713186128__featured_product_JfftBn",
+        "button_link": "",
         "button_arrow": "→",
         "button_height": 56,
         "button_height_mobile": 54,
@@ -168,7 +168,7 @@
         "guarantee_icon": "",
         "guarantee_text": "Garantie Satisfait ou Remboursé 30 jours",
         "guarantee_size": 12,
-        "background_color": "#f5f1ff",
+        "background_color": "#F5F1FF",
         "card_background": "#edebe4",
         "text_color": "#1a1a1e",
         "muted_color": "#1a1a1e",
@@ -213,7 +213,7 @@
             "liquid": "<style>\n  .mosko-benefits {\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n    margin: 18px 0;\n    font-size: 15px;\n    line-height: 1.45;\n    color: #1f1f1f;\n  }\n\n  .mosko-benefit-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 10px;\n  }\n\n  .mosko-check {\n    width: 20px;\n    height: 20px;\n    min-width: 20px;\n    border-radius: 50%;\n    border: 1px solid #b8a7ff;\n    background: #f5f1ff;\n    color: #7b61ff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 12px;\n    margin-top: 1px;\n  }\n\n  .mosko-benefit-text strong {\n    font-weight: 700;\n    color: #111111;\n  }\n\n  @media screen and (max-width: 749px) {\n    .mosko-benefits {\n      font-size: 14px;\n      gap: 9px;\n    }\n  }\n</style>\n\n<div class=\"mosko-benefits\">\n  <div class=\"mosko-benefit-item\">\n    <div class=\"mosko-check\">✓</div>\n    <div class=\"mosko-benefit-text\">\n      <strong>Rechargeable USB.</strong> Une charge suffit pour plusieurs utilisations.\n    </div>\n  </div>\n\n  <div class=\"mosko-benefit-item\">\n    <div class=\"mosko-check\">✓</div>\n    <div class=\"mosko-benefit-text\">\n      <strong>Élimination rapide.</strong> Neutralise moustiques et insectes en quelques secondes.\n    </div>\n  </div>\n\n  <div class=\"mosko-benefit-item\">\n    <div class=\"mosko-check\">✓</div>\n    <div class=\"mosko-benefit-text\">\n      <strong>Sans produit chimique.</strong> Aucun spray, aucune odeur, aucune diffusion.\n    </div>\n  </div>\n\n  <div class=\"mosko-benefit-item\">\n    <div class=\"mosko-check\">✓</div>\n    <div class=\"mosko-benefit-text\">\n      <strong>Intérieur & extérieur.</strong> Chambre, salon, terrasse, jardin ou camping.\n    </div>\n  </div>\n</div>"
           }
         },
-        "kaching_bundles_app_block_DFeWTT": {
+        "kaching_bundles_app_block_9p79z8": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "{{section.settings.product}}",
@@ -303,7 +303,7 @@
         "liquid_kFpGVp",
         "title_TMz6L9",
         "liquid_wR6dUx",
-        "kaching_bundles_app_block_DFeWTT",
+        "kaching_bundles_app_block_9p79z8",
         "description_BD4ALM",
         "variant_picker_UqFUcm",
         "quantity_selector_w4c8FC",
@@ -562,7 +562,7 @@
             "mobile_icon_width": 32,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#f5f1ff",
+            "icon_background": "#F5F1FF",
             "icon_color": "",
             "title": "Free shipping",
             "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
@@ -575,7 +575,7 @@
             "mobile_icon_width": 32,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#f5f1ff",
+            "icon_background": "#F5F1FF",
             "icon_color": "",
             "title": "Customer service",
             "content": "<p>We are available from monday to friday to answer your questions.</p>"
@@ -588,7 +588,7 @@
             "mobile_icon_width": 32,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#f5f1ff",
+            "icon_background": "#F5F1FF",
             "icon_color": "",
             "title": "Secure payment",
             "content": "<p>Your payment information is processed securely.</p>"
@@ -816,7 +816,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "#FAF9F9",
+        "testimonial_card_background": "",
         "testimonial_card_text_color": ""
       }
     },
@@ -885,7 +885,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "#f5f1ff",
+        "accordion_background": "#F5F1FF",
         "accordion_text_color": "#1a1a1e"
       }
     },

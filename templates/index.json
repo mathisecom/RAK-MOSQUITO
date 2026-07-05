@@ -129,7 +129,7 @@
         "description_margin_top": 26,
         "description_margin_top_mobile": 16,
         "show_benefits": true,
-        "benefits_background": "#FAF9F9",
+        "benefits_background": "#FFFFFF",
         "benefits_text_color": "#262756",
         "benefits_icon_color": "#262756",
         "benefits_border_color": "#262756",

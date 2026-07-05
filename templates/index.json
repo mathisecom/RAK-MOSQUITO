@@ -518,22 +518,6 @@
         "mobile_card_min_height": 340
       }
     },
-    "scrolling_text_wNNXJU": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "Essai de 30 jours sans risque",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 8,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "media_with_text_HdbTbK": {
       "type": "media-with-text",
       "blocks": {
@@ -632,6 +616,22 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "scrolling_text_wNNXJU": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Essai de 30 jours sans risque",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 8,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
       }
     },
     "benefitimage_hHbnzH": {

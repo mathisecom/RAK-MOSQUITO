@@ -213,6 +213,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_wR6dUx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "description_BD4ALM": {
           "type": "description",
           "disabled": true,
@@ -296,6 +302,7 @@
         "liquid_kFpGVp",
         "title_TMz6L9",
         "price_BAy7yW",
+        "liquid_wR6dUx",
         "description_BD4ALM",
         "variant_picker_UqFUcm",
         "quantity_selector_w4c8FC",

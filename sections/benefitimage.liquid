@@ -1,0 +1,587 @@
+{% comment %}
+  Section : Bénéfices + Image
+{% endcomment %}
+
+<section class="benefit-image-section-{{ section.id }}">
+  <div class="benefit-image-wrapper">
+    
+    <div class="benefit-image-content">
+      {% if section.settings.heading != blank %}
+        <h2>{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      {% if section.settings.description != blank %}
+        <p class="benefit-main-text">{{ section.settings.description }}</p>
+      {% endif %}
+
+      <div class="benefit-list">
+        {% for block in section.blocks %}
+          <div class="benefit-item" {{ block.shopify_attributes }}>
+            <div class="benefit-icon">
+              {% if block.settings.custom_svg != blank %}
+                {{ block.settings.custom_svg }}
+              {% else %}
+                {% case block.settings.icon %}
+                  {% when 'eye' %}
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  {% when 'sparkle' %}
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8L12 2Z" stroke="currentColor" stroke-width="2"/>
+                      <path d="M19 14l.9 2.6L22 17.5l-2.1.9L19 21l-.9-2.6-2.1-.9 2.1-.9L19 14Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  {% when 'shield' %}
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M12 3l8 3v5c0 5-3.4 9.2-8 10-4.6-.8-8-5-8-10V6l8-3Z" stroke="currentColor" stroke-width="2"/>
+                      <path d="M8.5 12l2.2 2.2L15.8 9" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  {% when 'flash' %}
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M13 2L4 14h7l-1 8 10-13h-7l0-7Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  {% else %}
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                {% endcase %}
+              {% endif %}
+            </div>
+
+            <div class="benefit-text">
+              {% if block.settings.title != blank %}
+                <h3>{{ block.settings.title }}</h3>
+              {% endif %}
+
+              {% if block.settings.text != blank %}
+                <p>{{ block.settings.text }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="benefit-image-box">
+      {% if section.settings.image != blank %}
+        <img
+          src="{{ section.settings.image | image_url: width: 1200 }}"
+          alt="{{ section.settings.image_alt | escape }}"
+          loading="lazy"
+        >
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .benefit-image-section-{{ section.id }} {
+    background: {{ section.settings.background_color }};
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-image-wrapper {
+    max-width: {{ section.settings.container_width }}px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ section.settings.column_gap }}px;
+    align-items: center;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-image-content {
+    max-width: 620px;
+  }
+
+  .benefit-image-section-{{ section.id }} h2 {
+    margin: 0 0 28px;
+    font-size: {{ section.settings.heading_size }}px;
+    line-height: 1.15;
+    font-weight: 800;
+    color: {{ section.settings.heading_color }};
+    letter-spacing: -0.04em;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-main-text {
+    margin: 0 0 30px;
+    font-size: {{ section.settings.text_size }}px;
+    line-height: 1.7;
+    color: {{ section.settings.text_color }};
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-icon {
+    width: {{ section.settings.icon_size }}px;
+    height: {{ section.settings.icon_size }}px;
+    min-width: {{ section.settings.icon_size }}px;
+    color: {{ section.settings.icon_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-text h3 {
+    margin: 0 0 5px;
+    font-size: {{ section.settings.benefit_title_size }}px;
+    line-height: 1.25;
+    font-weight: 800;
+    color: {{ section.settings.benefit_title_color }};
+    letter-spacing: 0.02em;
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-text p {
+    margin: 0;
+    font-size: {{ section.settings.benefit_text_size }}px;
+    line-height: 1.6;
+    color: {{ section.settings.benefit_text_color }};
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-image-box {
+    width: 100%;
+    border-radius: {{ section.settings.image_radius }}px;
+    overflow: hidden;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, {{ section.settings.shadow_opacity | times: 0.01 }});
+  }
+
+  .benefit-image-section-{{ section.id }} .benefit-image-box img,
+  .benefit-image-section-{{ section.id }} .benefit-image-box svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: {{ section.settings.image_radius }}px;
+  }
+
+  {% if section.settings.image_position == 'left' %}
+    .benefit-image-section-{{ section.id }} .benefit-image-box {
+      order: -1;
+    }
+  {% endif %}
+
+  @media screen and (max-width: 989px) {
+    .benefit-image-section-{{ section.id }} .benefit-image-wrapper {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+
+    .benefit-image-section-{{ section.id }} .benefit-image-content {
+      max-width: 100%;
+    }
+
+    .benefit-image-section-{{ section.id }} h2 {
+      font-size: {{ section.settings.heading_size_mobile }}px;
+      margin-bottom: 20px;
+    }
+
+    .benefit-image-section-{{ section.id }} .benefit-main-text {
+      font-size: {{ section.settings.text_size_mobile }}px;
+      margin-bottom: 26px;
+    }
+
+    .benefit-image-section-{{ section.id }} .benefit-text h3 {
+      font-size: {{ section.settings.benefit_title_size_mobile }}px;
+    }
+
+    .benefit-image-section-{{ section.id }} .benefit-text p {
+      font-size: {{ section.settings.benefit_text_size_mobile }}px;
+    }
+
+    {% if section.settings.mobile_image_first == false %}
+      .benefit-image-section-{{ section.id }} .benefit-image-box {
+        order: 2;
+      }
+
+      .benefit-image-section-{{ section.id }} .benefit-image-content {
+        order: 1;
+      }
+    {% else %}
+      .benefit-image-section-{{ section.id }} .benefit-image-box {
+        order: 1;
+      }
+
+      .benefit-image-section-{{ section.id }} .benefit-image-content {
+        order: 2;
+      }
+    {% endif %}
+  }
+
+  @media screen and (max-width: 749px) {
+    .benefit-image-section-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    .benefit-image-section-{{ section.id }} .benefit-image-wrapper {
+      padding: 0 18px;
+    }
+
+    .benefit-image-section-{{ section.id }} .benefit-item {
+      gap: 13px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Bénéfices avec image",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contenu"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre",
+      "default": "Visible Design, Effortless Cleaning"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Paragraphe",
+      "default": "See the results through the clear storage box—just twist and empty for effortless cleaning."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Texte alternatif de l’image",
+      "default": "Image produit"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Position de l’image sur ordinateur",
+      "default": "right",
+      "options": [
+        {
+          "value": "right",
+          "label": "Image à droite"
+        },
+        {
+          "value": "left",
+          "label": "Image à gauche"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_image_first",
+      "label": "Afficher l’image en premier sur mobile",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur de fond",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Couleur du titre",
+      "default": "#101828"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du paragraphe",
+      "default": "#4B5563"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Couleur des icônes",
+      "default": "#B43CFF"
+    },
+    {
+      "type": "color",
+      "id": "benefit_title_color",
+      "label": "Couleur des titres bénéfices",
+      "default": "#101828"
+    },
+    {
+      "type": "color",
+      "id": "benefit_text_color",
+      "label": "Couleur des textes bénéfices",
+      "default": "#6B7280"
+    },
+    {
+      "type": "header",
+      "content": "Dimensions"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Largeur maximale",
+      "min": 900,
+      "max": 1600,
+      "step": 50,
+      "default": 1350
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "label": "Espace entre texte et image",
+      "min": 30,
+      "max": 120,
+      "step": 5,
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "label": "Arrondi de l’image",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "shadow_opacity",
+      "label": "Ombre de l’image",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Taille des icônes",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "default": 42
+    },
+    {
+      "type": "header",
+      "content": "Typographie ordinateur"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Taille du titre",
+      "min": 28,
+      "max": 72,
+      "step": 2,
+      "default": 42
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Taille du paragraphe",
+      "min": 13,
+      "max": 24,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "benefit_title_size",
+      "label": "Taille titre bénéfice",
+      "min": 15,
+      "max": 30,
+      "step": 1,
+      "default": 21
+    },
+    {
+      "type": "range",
+      "id": "benefit_text_size",
+      "label": "Taille texte bénéfice",
+      "min": 12,
+      "max": 22,
+      "step": 1,
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Typographie mobile"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Taille titre mobile",
+      "min": 24,
+      "max": 46,
+      "step": 1,
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "label": "Taille paragraphe mobile",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "benefit_title_size_mobile",
+      "label": "Taille titre bénéfice mobile",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "benefit_text_size_mobile",
+      "label": "Taille texte bénéfice mobile",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Espacements"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Marge haut ordinateur",
+      "min": 20,
+      "max": 140,
+      "step": 5,
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Marge bas ordinateur",
+      "min": 20,
+      "max": 140,
+      "step": 5,
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Marge haut mobile",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Marge bas mobile",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "default": 45
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Bénéfice",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icône",
+          "default": "eye",
+          "options": [
+            {
+              "value": "eye",
+              "label": "Œil"
+            },
+            {
+              "value": "sparkle",
+              "label": "Nettoyage"
+            },
+            {
+              "value": "shield",
+              "label": "Protection"
+            },
+            {
+              "value": "flash",
+              "label": "Éclair"
+            },
+            {
+              "value": "check",
+              "label": "Check"
+            }
+          ]
+        },
+        {
+          "type": "textarea",
+          "id": "custom_svg",
+          "label": "Icône SVG personnalisée",
+          "info": "Optionnel : colle ton SVG ici pour remplacer l’icône sélectionnée."
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre du bénéfice",
+          "default": "Visible Trapping Results"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Texte du bénéfice",
+          "default": "Visible design shows clear results."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bénéfices avec image",
+      "blocks": [
+        {
+          "type": "benefit",
+          "settings": {
+            "icon": "eye",
+            "title": "Visible Trapping Results",
+            "text": "Visible design shows clear results."
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "icon": "sparkle",
+            "title": "Hassle-Free Cleaning",
+            "text": "Twist, empty, and rinse with water."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

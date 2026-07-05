@@ -170,7 +170,7 @@
         "guarantee_text": "Garantie Satisfait ou Remboursé 30 jours",
         "guarantee_size": 12,
         "background_color": "#f5f1ff",
-        "card_background": "#F5F1FF",
+        "card_background": "#f5f1ff",
         "text_color": "#1a1a1e",
         "muted_color": "#1a1a1e",
         "accent_color": "#9bd36a",
@@ -617,6 +617,65 @@
         "text_color": ""
       }
     },
+    "benefitimage_hHbnzH": {
+      "type": "benefitimage",
+      "blocks": {
+        "benefit_GmFcBm": {
+          "type": "benefit",
+          "settings": {
+            "icon": "eye",
+            "custom_svg": "",
+            "title": "Visible Trapping Results",
+            "text": "Visible design shows clear results."
+          }
+        },
+        "benefit_pqVrcg": {
+          "type": "benefit",
+          "settings": {
+            "icon": "sparkle",
+            "custom_svg": "",
+            "title": "Hassle-Free Cleaning",
+            "text": "Twist, empty, and rinse with water."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_GmFcBm",
+        "benefit_pqVrcg"
+      ],
+      "name": "Bénéfices avec image",
+      "settings": {
+        "heading": "Visible Design, Effortless Cleaning",
+        "description": "See the results through the clear storage box—just twist and empty for effortless cleaning.",
+        "image": "shopify://shop_images/w500.avif",
+        "image_alt": "Image produit",
+        "image_position": "right",
+        "mobile_image_first": false,
+        "background_color": "#ffffff",
+        "heading_color": "#101828",
+        "text_color": "#4B5563",
+        "icon_color": "#B43CFF",
+        "benefit_title_color": "#101828",
+        "benefit_text_color": "#6B7280",
+        "container_width": 1350,
+        "column_gap": 80,
+        "image_radius": 14,
+        "shadow_opacity": 0,
+        "icon_size": 42,
+        "heading_size": 42,
+        "text_size": 16,
+        "benefit_title_size": 21,
+        "benefit_text_size": 15,
+        "heading_size_mobile": 32,
+        "text_size_mobile": 15,
+        "benefit_title_size_mobile": 18,
+        "benefit_text_size_mobile": 14,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mobile": 45,
+        "padding_bottom_mobile": 45
+      }
+    },
     "media_with_text_inRPFb": {
       "type": "media-with-text",
       "blocks": {
@@ -971,6 +1030,7 @@
     "avisclientstrust_yVzrhm",
     "media_with_text_HdbTbK",
     "text_with_icons_JKUpiT",
+    "benefitimage_hHbnzH",
     "media_with_text_inRPFb",
     "logoscroll_4iCxKf",
     "testimonials_8XQJCc",

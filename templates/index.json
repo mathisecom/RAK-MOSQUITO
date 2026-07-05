@@ -121,7 +121,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#1A1A1E",
+            "atc_button_background": "#1a1a1e",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -258,6 +258,41 @@
         "lazy": true
       }
     },
+    "media_with_text_HdbTbK": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_AyKWRp": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Idéale Pour des Nuits et Soirées Paisibles",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#F5F3FF",
+            "background_gradient": "",
+            "text_color": "#1A1A1E",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AyKWRp"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
     "avisclientstrust_yVzrhm": {
       "type": "avisclientstrust",
       "blocks": {
@@ -366,9 +401,9 @@
         "read_less_label": "Réduire",
         "review_text_lines": 7,
         "background_color": "#ffffff",
-        "text_color": "#1A1A1E",
-        "muted_color": "#1A1A1E",
-        "border_color": "#F5F3FF",
+        "text_color": "#1a1a1e",
+        "muted_color": "#1a1a1e",
+        "border_color": "#f5f3ff",
         "accent_color": "#00b67a",
         "max_width": 1120,
         "padding_top": 64,
@@ -505,8 +540,8 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "#F5F3FF",
-        "accordion_text_color": "#1A1A1E"
+        "accordion_background": "#f5f3ff",
+        "accordion_text_color": "#1a1a1e"
       }
     }
   },
@@ -514,6 +549,7 @@
     "annoucement_gYLwWh",
     "featured_product_JfftBn",
     "logoscroll_P4XrpJ",
+    "media_with_text_HdbTbK",
     "avisclientstrust_yVzrhm",
     "scrolling_text_3Q8M8U",
     "text_with_icons_JKUpiT",

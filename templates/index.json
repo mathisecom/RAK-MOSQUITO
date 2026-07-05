@@ -654,10 +654,10 @@
         "mobile_image_first": false,
         "background_color": "#ffffff",
         "heading_color": "#101828",
-        "text_color": "#4B5563",
-        "icon_color": "#B43CFF",
+        "text_color": "#4b5563",
+        "icon_color": "#b43cff",
         "benefit_title_color": "#101828",
-        "benefit_text_color": "#6B7280",
+        "benefit_text_color": "#6b7280",
         "container_width": 1350,
         "column_gap": 80,
         "image_radius": 14,
@@ -821,7 +821,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "John S.",
             "title": "Une qualité incroyable",
             "content": "<p>Ce qui est pratique c'est qu'on peut l'utiliser en mode automatique la nuit et en raquette la journée. J'en suis très satisfaite.</p>"
@@ -843,7 +843,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Nassim W.",
             "title": "Super Qualitatif !",
             "content": "<p>J'avais des doutes au début mais ça marche vraiment bien. Le petit plus : la lumière LED bleue n'est pas trop agressive pour dormir.</p>"
@@ -881,7 +881,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
+        "testimonial_card_background": "#FAF9F9",
         "testimonial_card_text_color": ""
       }
     },

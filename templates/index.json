@@ -843,21 +843,21 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Est-ce que la raquette est rechargeable ?",
+            "content": "<p>Oui, elle se recharge facilement via USB, ce qui évite d’acheter des piles.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Peut-on l’utiliser à l’intérieur et à l’extérieur ?",
+            "content": "<p>Oui, elle est idéale pour la chambre, le salon, la terrasse, le jardin ou le camping.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
+            "title": "Est-ce qu’elle utilise des produits chimiques ?",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
         }

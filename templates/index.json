@@ -288,13 +288,25 @@
             "date": "14 avril 2026",
             "initials": "C"
           }
+        },
+        "review_VT7qPX": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "title": "La raquette est super efficace",
+            "text": "La raquette est super efficace contre tous les insectes. Le mode automatique est parfait pour la nuit, je la pose sur ma table de chevet et je n'entends plus un seul moustique.",
+            "name": "Hanae F.",
+            "date": "14 avril 2026",
+            "initials": "C"
+          }
         }
       },
       "block_order": [
         "review_qRNMa6",
         "review_iy4Q3e",
         "review_gfWNLb",
-        "review_RUmtCR"
+        "review_RUmtCR",
+        "review_VT7qPX"
       ],
       "name": "Avis clients carousel",
       "settings": {

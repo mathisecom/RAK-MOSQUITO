@@ -624,7 +624,7 @@
         "benefit_GmFcBm": {
           "type": "benefit",
           "settings": {
-            "icon": "eye",
+            "icon": "flash",
             "custom_svg": "",
             "title": "Parfait en extérieur",
             "text": "Idéal pour les repas, apéros et soirées d’été."
@@ -633,7 +633,7 @@
         "benefit_pqVrcg": {
           "type": "benefit",
           "settings": {
-            "icon": "sparkle",
+            "icon": "shield",
             "custom_svg": "",
             "title": "Sans produit chimique",
             "text": "Élimine les moustiques sans spray ni odeur."

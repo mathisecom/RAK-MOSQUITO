@@ -573,8 +573,8 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
+            "mobile_icon_width": 52,
+            "icon_width": 52,
             "icon_background_type": "circle",
             "icon_background": "#f5f1ff",
             "icon_color": "",
@@ -586,8 +586,8 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
+            "mobile_icon_width": 52,
+            "icon_width": 52,
             "icon_background_type": "circle",
             "icon_background": "#f5f1ff",
             "icon_color": "",

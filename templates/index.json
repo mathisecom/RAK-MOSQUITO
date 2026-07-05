@@ -258,41 +258,6 @@
         "lazy": true
       }
     },
-    "media_with_text_HdbTbK": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_AyKWRp": {
-          "type": "image",
-          "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Idéale Pour des Nuits et Soirées Paisibles",
-            "content": "<p>Sans produits chimiques, sans odeur et facile à utiliser, cette raquette est parfaite pour toute la famille. </p><p>Elle vous aide à retrouver un vrai confort pendant l’été, que ce soit en intérieur ou en extérieur.</p>",
-            "link_text": "OBTENIR MAINTENANT",
-            "link_url": "",
-            "background": "#F5F3FF",
-            "background_gradient": "",
-            "text_color": "#1A1A1E",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_AyKWRp"
-      ],
-      "name": "Media with text",
-      "settings": {
-        "full_width": false,
-        "alternate_media_position": false,
-        "spacing": "small"
-      }
-    },
     "avisclientstrust_yVzrhm": {
       "type": "avisclientstrust",
       "blocks": {
@@ -413,21 +378,39 @@
         "mobile_card_min_height": 340
       }
     },
-    "scrolling_text_3Q8M8U": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "name": "Scrolling text",
+    "media_with_text_HdbTbK": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_AyKWRp": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Idéale Pour des Nuits et Soirées Paisibles",
+            "content": "<p>Sans produits chimiques, sans odeur et facile à utiliser, cette raquette est parfaite pour toute la famille. </p><p>Elle vous aide à retrouver un vrai confort pendant l’été, que ce soit en intérieur ou en extérieur.</p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "",
+            "background": "#FAF9F9",
+            "background_gradient": "",
+            "text_color": "#1A1A1E",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AyKWRp"
+      ],
+      "name": "Media with text",
       "settings": {
-        "full_width": true,
-        "text": "🌙 Essai de 30 nuits sans risque",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
       }
     },
     "text_with_icons_JKUpiT": {
@@ -478,7 +461,6 @@
         "item_GQUmyD",
         "item_XTqETR"
       ],
-      "disabled": true,
       "name": "Text with icons",
       "settings": {
         "full_width": true,
@@ -490,6 +472,58 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "media_with_text_inRPFb": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_eU4PFn": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Élimine les Moustiques en un Seul Geste !",
+            "content": "<p>Grâce à sa grille électrique puissante, cette raquette anti-moustique neutralise rapidement les moustiques, mouches et autres insectes volants. </p><p>Simple et efficace, elle vous permet de profiter de vos soirées sans être dérangé.</p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "",
+            "background": "#FAF9F9",
+            "background_gradient": "",
+            "text_color": "#1A1A1E",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eU4PFn"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "scrolling_text_3Q8M8U": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "🌙 Essai de 30 nuits sans risque",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
       }
     },
     "faq": {
@@ -549,10 +583,11 @@
     "annoucement_gYLwWh",
     "featured_product_JfftBn",
     "logoscroll_P4XrpJ",
-    "media_with_text_HdbTbK",
     "avisclientstrust_yVzrhm",
-    "scrolling_text_3Q8M8U",
+    "media_with_text_HdbTbK",
     "text_with_icons_JKUpiT",
+    "media_with_text_inRPFb",
+    "scrolling_text_3Q8M8U",
     "faq"
   ]
 }

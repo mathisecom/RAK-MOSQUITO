@@ -271,8 +271,8 @@
           "type": "review",
           "settings": {
             "rating": 5,
-            "title": "Super confortable et qualitatif",
-            "text": "Le produit est à la fois beau, agréable à porter et très bien fini. On sent que les détails ont été travaillés. Je pense déjà repasser commande très bientôt.",
+            "title": "Super Qualitatif !",
+            "text": "J'avais des doutes au début mais ça marche vraiment bien. Le petit plus : la lumière LED bleue n'est pas trop agressive pour dormir.",
             "name": "Sally Myhr",
             "date": "23 avril 2026",
             "initials": "S"
@@ -282,44 +282,11 @@
           "type": "review",
           "settings": {
             "rating": 5,
-            "title": "J’adore mon achat",
-            "text": "Après plusieurs commandes ailleurs, c’est clairement l’un des meilleurs achats que j’ai faits. Le rapport qualité-prix est excellent et le résultat est vraiment propre.",
+            "title": "Excellent achat pour cet été !",
+            "text": "Excellent achat pour cet été ! Je dors enfin paisiblement sans le bruit agaçant des moustiques. La batterie tient vraiment bien la charge.",
             "name": "Cherith",
             "date": "14 avril 2026",
             "initials": "C"
-          }
-        },
-        "review_gAtRqH": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "title": "Très satisfait de ma commande",
-            "text": "Très content de mon achat. La qualité est au rendez-vous, la taille correspond bien et le rendu final est exactement comme sur les photos.",
-            "name": "Suzanne",
-            "date": "27 mars 2026",
-            "initials": "S"
-          }
-        },
-        "review_9qwbwJ": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "title": "Service client au top",
-            "text": "Service client rapide, gentil et efficace. J’avais une question avant de commander et j’ai reçu une réponse claire très rapidement. L’expérience est vraiment rassurante.",
-            "name": "Katie Glover",
-            "date": "28 janvier 2026",
-            "initials": "K"
-          }
-        },
-        "review_d4y6kQ": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "title": "J’étais un peu sceptique…",
-            "text": "Je ne savais pas trop à quoi m’attendre au départ, mais au final je suis super content. La qualité est là, le rendu est propre et je n’utiliserai plus d’autre boutique pour ce type de produit.",
-            "name": "Eva",
-            "date": "16 janvier 2026",
-            "initials": "E"
           }
         }
       },
@@ -327,10 +294,7 @@
         "review_qRNMa6",
         "review_iy4Q3e",
         "review_gfWNLb",
-        "review_RUmtCR",
-        "review_gAtRqH",
-        "review_9qwbwJ",
-        "review_d4y6kQ"
+        "review_RUmtCR"
       ],
       "name": "Avis clients carousel",
       "settings": {

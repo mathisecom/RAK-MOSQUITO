@@ -168,7 +168,7 @@
         "guarantee_icon": "",
         "guarantee_text": "Garantie Satisfait ou Remboursé 30 jours",
         "guarantee_size": 12,
-        "background_color": "#F5F1FF",
+        "background_color": "#f5f1ff",
         "card_background": "#edebe4",
         "text_color": "#1a1a1e",
         "muted_color": "#1a1a1e",
@@ -559,10 +559,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
+            "custom_icon": "shopify://shop_images/Design_sans_titre_57.png",
+            "mobile_icon_width": 52,
+            "icon_width": 52,
             "icon_background_type": "circle",
-            "icon_background": "#F5F1FF",
+            "icon_background": "#f5f1ff",
             "icon_color": "",
             "title": "Élimination Rapide",
             "content": "<p>Neutralise les moustiques et insectes volants en quelques secondes.</p>"
@@ -575,7 +576,7 @@
             "mobile_icon_width": 32,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#F5F1FF",
+            "icon_background": "#f5f1ff",
             "icon_color": "",
             "title": "Rechargeable & Pratique",
             "content": "<p>Se recharge facilement, sans piles à remplacer.</p>"
@@ -588,7 +589,7 @@
             "mobile_icon_width": 32,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#F5F1FF",
+            "icon_background": "#f5f1ff",
             "icon_color": "",
             "title": "Utilisation Partout",
             "content": "<p>Parfaite pour la chambre, le salon, la terrasse ou le camping.</p>"
@@ -901,7 +902,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "#F5F1FF",
+        "accordion_background": "#f5f1ff",
         "accordion_text_color": "#1a1a1e"
       }
     },

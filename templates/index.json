@@ -872,7 +872,7 @@
           "type": "item",
           "settings": {
             "title": "Est-ce que la base est incluse ?",
-            "content": "<p>Oui, la raquette est fournie avec sa base pour la poser facilement lorsqu’elle n’est pas utilisée.</p>"
+            "content": "<p>Oui, la raquette est fournie avec sa base pour la poser facilement lorsqu’elle n’est pas utilisée. </p>"
           }
         }
       },

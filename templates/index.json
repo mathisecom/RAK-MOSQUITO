@@ -640,6 +640,166 @@
         "spacing": "small"
       }
     },
+    "logoscroll_4iCxKf": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_df963b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_59.png",
+            "url": ""
+          }
+        },
+        "image_HdRei3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_58.png",
+            "url": ""
+          }
+        },
+        "image_piJdcN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_57.png",
+            "url": ""
+          }
+        },
+        "image_gxmFiM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_56.png",
+            "url": ""
+          }
+        },
+        "image_7QCBKr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_55.png",
+            "url": ""
+          }
+        },
+        "image_Rxki6P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_54.png",
+            "url": ""
+          }
+        },
+        "image_FnfBbE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_53.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_df963b",
+        "image_HdRei3",
+        "image_piJdcN",
+        "image_gxmFiM",
+        "image_7QCBKr",
+        "image_Rxki6P",
+        "image_FnfBbE"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 20,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 130,
+        "card_width_mobile": 130,
+        "heading_color": "#121212",
+        "layout_bg_color": "#ffffff",
+        "layout_border_color": "#121212",
+        "background_color": "#ffffff",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "testimonials_8XQJCc": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_GJatj7": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_fkqpP8": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_WK6w7L": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_GJatj7",
+        "testimonial_fkqpP8",
+        "testimonial_WK6w7L"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
     "scrolling_text_3Q8M8U": {
       "type": "scrolling-text",
       "disabled": true,
@@ -772,6 +932,8 @@
     "media_with_text_HdbTbK",
     "text_with_icons_JKUpiT",
     "media_with_text_inRPFb",
+    "logoscroll_4iCxKf",
+    "testimonials_8XQJCc",
     "scrolling_text_3Q8M8U",
     "faq",
     "annoucement_gYLwWh"

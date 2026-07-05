@@ -750,8 +750,8 @@
             "show_rating": true,
             "rating": 4,
             "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Une qualité incroyable",
+            "content": "<p>Ce qui est pratique c'est qu'on peut l'utiliser en mode automatique la nuit et en raquette la journée. J'en suis très satisfaite.</p>"
           }
         },
         "testimonial_fkqpP8": {
@@ -761,8 +761,8 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Je recommande à 100%",
+            "content": "<p>J'apprécie beaucoup la sécurité avec la grille de protection, je peux l'utiliser sans crainte avec mes chats dans les parages.</p>"
           }
         },
         "testimonial_WK6w7L": {
@@ -771,16 +771,28 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Nassim W.",
+            "title": "Super Qualitatif !",
+            "content": "<p>J'avais des doutes au début mais ça marche vraiment bien. Le petit plus : la lumière LED bleue n'est pas trop agressive pour dormir.</p>"
+          }
+        },
+        "testimonial_XPWfUV": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Excellent achat pour cet été !",
+            "content": "<p>Excellent achat pour cet été ! Je dors enfin paisiblement sans le bruit agaçant des moustiques. La batterie tient vraiment bien la charge.</p>"
           }
         }
       },
       "block_order": [
         "testimonial_GJatj7",
         "testimonial_fkqpP8",
-        "testimonial_WK6w7L"
+        "testimonial_WK6w7L",
+        "testimonial_XPWfUV"
       ],
       "name": "Testimonials",
       "settings": {

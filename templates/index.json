@@ -137,24 +137,49 @@
         "image_m9UjQJ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_59.png",
             "url": ""
           }
         },
         "image_FaJNa6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_58.png",
             "url": ""
           }
         },
         "image_KJgWp8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_57.png",
             "url": ""
           }
         },
         "image_LthXN4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_56.png",
+            "url": ""
+          }
+        },
+        "image_Etngi4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_55.png",
+            "url": ""
+          }
+        },
+        "image_aeprBN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_54.png",
+            "url": ""
+          }
+        },
+        "image_xN9rWd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_53.png",
             "url": ""
           }
         }
@@ -163,7 +188,10 @@
         "image_m9UjQJ",
         "image_FaJNa6",
         "image_KJgWp8",
-        "image_LthXN4"
+        "image_LthXN4",
+        "image_Etngi4",
+        "image_aeprBN",
+        "image_xN9rWd"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
@@ -176,13 +204,13 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 30,
-        "scrolling_velocity_mobile": 30,
+        "scrolling_velocity_mobile": 20,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
         "scrolling_gap_mobile": 30,
         "card_width_desktop": 130,
-        "card_width_mobile": 100,
+        "card_width_mobile": 130,
         "heading_color": "#121212",
         "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",

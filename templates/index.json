@@ -858,14 +858,30 @@
           "type": "item",
           "settings": {
             "title": "Est-ce qu’elle utilise des produits chimiques ?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "content": "<p>Non, elle fonctionne sans spray, sans odeur et sans produit chimique.</p>"
+          }
+        },
+        "item_LkXgwK": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce qu’elle est facile à utiliser ?",
+            "content": "<p>Oui, il suffit de l’allumer et de l’utiliser directement pour neutraliser les moustiques et insectes volants.</p>"
+          }
+        },
+        "item_LejKhT": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que la base est incluse ?",
+            "content": "<p>Oui, la raquette est fournie avec sa base pour la poser facilement lorsqu’elle n’est pas utilisée.</p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_LkXgwK",
+        "item_LejKhT"
       ],
       "settings": {
         "full_width": false,

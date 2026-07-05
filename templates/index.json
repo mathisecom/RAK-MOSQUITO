@@ -573,6 +573,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_58.png",
             "mobile_icon_width": 52,
             "icon_width": 52,
             "icon_background_type": "circle",
@@ -586,6 +587,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_59.png",
             "mobile_icon_width": 52,
             "icon_width": 52,
             "icon_background_type": "circle",
